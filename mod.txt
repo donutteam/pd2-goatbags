@@ -1,0 +1,12 @@
+{
+	"name" : "Goat Bags",
+	"description" : "Changes all items that have been picked up to goats. When hosting, items on the ground will be goats. However, all people must have the mod to see goats on each other's shoulders.",
+	"author" : "donutteam.com/@fluffy",
+	"contact" : "donutteam.com/@fluffy",
+	"hooks" : [
+		{ "hook_id" : "lib/tweak_data/tweakdata", "script_path" : "lua/bag.lua" }
+	],
+	"persist_scripts" : [
+		{ "global" : "loadbag", "script_path" : "lua/bag.lua" }
+	]
+}
