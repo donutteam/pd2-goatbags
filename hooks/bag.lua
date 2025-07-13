@@ -47,7 +47,7 @@ local bagTypes = {
 	"treasure",
 	"turret_part",
 	"uno_gold",
-	"vehicle_falcogini",
+	-- "vehicle_falcogini",
 	"vr_headset",
 	"weapon_glock",
 	"weapon_scar",
